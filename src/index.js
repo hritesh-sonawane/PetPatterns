@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
-import Parent from "./Parent";
+// import Parent from "./Parent";
+import VideoPlayer from "./VideoPlayer/VideoPlayer";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <VideoPlayer />
   </React.StrictMode>,
   document.getElementById("root")
 );
